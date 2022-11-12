@@ -8,10 +8,13 @@
         </v-card-title>
         <v-card-text>
           this is a card
+          <v-icon icon="mdi-home" />
         </v-card-text>
         <v-card-actions>
           <v-spacer></v-spacer>
-          <v-btn>confirm</v-btn>
+          <v-btn prepend-icon="mdi-check">
+            confirm
+          </v-btn>
         </v-card-actions>
       </v-card>
     </v-container>
